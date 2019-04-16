@@ -9,10 +9,10 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/sgev0djh8k5kknl/export.pkl?dl=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://www.dropbox.com/s/6xbqw187a3s6jjt/export_planet.pkl?dl=1'
+export_file_name = 'export_planet.pkl'
 
-classes = ['oceans', 'lakes']
+#classes = ['oceans', 'lakes']
 path = Path(__file__).parent
 
 app = Starlette()
